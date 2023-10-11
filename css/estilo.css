@@ -177,6 +177,59 @@ img.image-principal{
     background: #fff url(../images/fundo-caixa.png);
 }
 
+
+#conteudo-lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    
+}
+
+#conteudo-lateral ul li a{
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#conteudo-lateral ul li a:hover{
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #FA8072;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #FA8072;
+    border: 1px solid #d38880;
+}
+
+#duas-colunas #conteudo-primario{
+    width: 555px;
+}
+
+#uma-coluna #conteudo-primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+
+
 /*Parte do rodapé*/
 #container-rodape{
     background: #FA8072;
