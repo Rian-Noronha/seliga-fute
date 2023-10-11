@@ -67,7 +67,7 @@ a:hover{
 }
 
 #topo ul a:hover{
-    color: #00FF00;
+    color: #FA8072;
 }
 
 body.home #navegacao a#home,
@@ -116,11 +116,66 @@ h3{
 }
 
 
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 100px;
+}
+
+#lista-noticias li img{
+    border: 1px solid black;
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+    color: black;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #FA8072;
+}
+
+#lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover{
+    background:#FA8072;
+    cursor: pointer;
+}
 
 img.image-principal{
     border: 1px solid black;
 }
 
+#conteudo-secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+.caixa-destaque{
+    margin: 10px 0;
+    padding: 5px;
+    background: #fff url(../images/fundo-caixa.png);
+}
+
+.caixa-uefa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #fff url(../images/fundo-caixa.png);
+}
+
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #fff url(../images/fundo-caixa.png);
+}
 
 /*Parte do rodapé*/
 #container-rodape{
